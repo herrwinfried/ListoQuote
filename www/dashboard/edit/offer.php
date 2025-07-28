@@ -403,7 +403,6 @@ $OffersInfoChild = $OffersInfoChild->fetchAll(PDO::FETCH_ASSOC);
             if (e.target && e.target.matches("button[name='product_sid[]']")) {
                 selectedRow = e.target.closest("tr");
                 modalMode = e.target.dataset.write === "update" ? "update" : "add";
-                console.log(`Modal Mode: ${modalMode}`);
             }
         });
 

@@ -320,7 +320,6 @@ include("../../layouts/admin.nav.php");
                 return;
             }
             const listIdFind = ProductsList.find(list => list.id === selectedProduct.list_id);
-            console.log(listIdFind);
             selectedRow.querySelector("input[name='product_code[]']").value = selectedProduct.product_code || "";
             selectedRow.querySelector("input[name='product_name[]']").value = selectedProduct.product_name || "";
             selectedRow.querySelector("input[name='product_price[]']").value = selectedProduct.product_price || "";
