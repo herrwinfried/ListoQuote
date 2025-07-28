@@ -1,0 +1,7 @@
+.idea
+.vscode
+.hintrc
+vendor
+node_modules
+package-lock.json
+db/database.sqlite

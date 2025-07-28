@@ -1,0 +1,18 @@
+.theme-icon {
+  width: 1rem !important;
+  height: 1rem !important;
+}
+.theme-icon-active {
+  width: 1rem !important;
+  height: 1rem !important;
+}
+
+#adminNavbar {
+  height: 500vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 550px;
+  background-color: #343a40;
+  padding-top: 60px;
+}
